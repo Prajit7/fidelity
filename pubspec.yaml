@@ -1,0 +1,26 @@
+name: fidelity
+description: >-
+  Runtime quality governor for Flutter. Watches real frame timings and steps
+  blur, shadows and other heavy effects down when the device struggles, then
+  back up when it recovers.
+version: 0.1.0
+repository: https://github.com/Prajit7/fidelity
+issue_tracker: https://github.com/Prajit7/fidelity/issues
+topics:
+  - performance
+  - animation
+  - widget
+  - accessibility
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
